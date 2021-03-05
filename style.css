@@ -73,6 +73,15 @@ header h2 {
   align-items: center;
   color: gray;
   padding: 0.5rem 0rem;
+  overflow: hidden;
+}
+
+.gallery-info p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: inline-block;
+  width: 50%;
+  overflow: hidden;
 }
 
 .gallery-info a {
